@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2848" started-at="2020-04-10T00:30:52 IST" finished-at="2020-04-10T00:30:55 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2848" started-at="2020-04-10T00:30:52 IST" finished-at="2020-04-10T00:30:55 IST">
+      <class name="com.epam.restapi.VerifyResponseHeaderTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.restapi.VerifyResponseHeaderTest@30b8a058]" name="setUp" is-config="true" duration-ms="354" started-at="2020-04-10T00:30:52 IST" finished-at="2020-04-10T00:30:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:0, instance:com.epam.restapi.VerifyResponseHeaderTest@30b8a058]" name="verifyStatusCode" duration-ms="1431" started-at="2020-04-10T00:30:53 IST" finished-at="2020-04-10T00:30:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+        <test-method status="PASS" signature="verifyContentTypeUsingBddApproach()[pri:0, instance:com.epam.restapi.VerifyResponseHeaderTest@30b8a058]" name="verifyContentTypeUsingBddApproach" duration-ms="407" started-at="2020-04-10T00:30:54 IST" depends-on-methods="com.epam.restapi.VerifyResponseHeaderTest.verifyStatusCode" finished-at="2020-04-10T00:30:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentTypeUsingBddApproach -->
+        <test-method status="PASS" signature="verifyContentTypeUsingBddApproachAndTestNGAssertion()[pri:0, instance:com.epam.restapi.VerifyResponseHeaderTest@30b8a058]" name="verifyContentTypeUsingBddApproachAndTestNGAssertion" duration-ms="94" started-at="2020-04-10T00:30:55 IST" depends-on-methods="com.epam.restapi.VerifyResponseHeaderTest.verifyStatusCode" finished-at="2020-04-10T00:30:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentTypeUsingBddApproachAndTestNGAssertion -->
+        <test-method status="PASS" signature="verifyContentTypeUsingHamcrestValidation()[pri:0, instance:com.epam.restapi.VerifyResponseHeaderTest@30b8a058]" name="verifyContentTypeUsingHamcrestValidation" duration-ms="290" started-at="2020-04-10T00:30:55 IST" depends-on-methods="com.epam.restapi.VerifyResponseHeaderTest.verifyStatusCode" finished-at="2020-04-10T00:30:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentTypeUsingHamcrestValidation -->
+        <test-method status="PASS" signature="verifyContentTypeUsingRequestAndResponseSpecification()[pri:0, instance:com.epam.restapi.VerifyResponseHeaderTest@30b8a058]" name="verifyContentTypeUsingRequestAndResponseSpecification" duration-ms="234" started-at="2020-04-10T00:30:55 IST" depends-on-methods="com.epam.restapi.VerifyResponseHeaderTest.verifyStatusCode" finished-at="2020-04-10T00:30:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContentTypeUsingRequestAndResponseSpecification -->
+      </class> <!-- com.epam.restapi.VerifyResponseHeaderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-10T21:30:53 IST" name="testng executions" finished-at="2023-08-10T21:30:58 IST" duration-ms="4949">
+    <groups>
+    </groups>
+    <test started-at="2023-08-10T21:30:53 IST" name="Test" finished-at="2023-08-10T21:30:58 IST" duration-ms="4949">
+      <class name="com.automation.restapi.tests.apple.VerifyAppleHttpStatusCode">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.restapi.tests.apple.VerifyAppleHttpStatusCode@43ee72e6]" started-at="2023-08-10T21:30:54 IST" name="setup" finished-at="2023-08-10T21:30:54 IST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyStatusCode()[pri:0, instance:com.automation.restapi.tests.apple.VerifyAppleHttpStatusCode@43ee72e6]" started-at="2023-08-10T21:30:54 IST" name="verifyStatusCode" finished-at="2023-08-10T21:30:56 IST" duration-ms="1732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+      </class> <!-- com.automation.restapi.tests.apple.VerifyAppleHttpStatusCode -->
+      <class name="com.automation.restapi.tests.apple.VerifyAppleResponseBodyTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.restapi.tests.apple.VerifyAppleResponseBodyTest@3901d134]" started-at="2023-08-10T21:30:56 IST" name="setUp" finished-at="2023-08-10T21:30:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyStatusCode()[pri:0, instance:com.automation.restapi.tests.apple.VerifyAppleResponseBodyTest@3901d134]" started-at="2023-08-10T21:30:56 IST" name="verifyStatusCode" finished-at="2023-08-10T21:30:57 IST" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+        <test-method signature="verifyResponseBody()[pri:0, instance:com.automation.restapi.tests.apple.VerifyAppleResponseBodyTest@3901d134]" started-at="2023-08-10T21:30:57 IST" name="verifyResponseBody" finished-at="2023-08-10T21:30:58 IST" depends-on-methods="com.automation.restapi.tests.apple.VerifyAppleResponseBodyTest.verifyStatusCode" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBody -->
+        <test-method signature="verifyResponseTitle()[pri:0, instance:com.automation.restapi.tests.apple.VerifyAppleResponseBodyTest@3901d134]" started-at="2023-08-10T21:30:58 IST" name="verifyResponseTitle" finished-at="2023-08-10T21:30:58 IST" depends-on-methods="com.automation.restapi.tests.apple.VerifyAppleResponseBodyTest.verifyStatusCode" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseTitle -->
+      </class> <!-- com.automation.restapi.tests.apple.VerifyAppleResponseBodyTest -->
+    </test> <!-- Test -->
+  </suite> <!-- testng executions -->
+</testng-results>

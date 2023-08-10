@@ -1,0 +1,8 @@
+com\automation\restapi\utils\RestAPIHelper.class
+com\automation\restapi\tests\apple\VerifyAppleHttpStatusCode.class
+com\automation\restapi\tests\apple\VerifyAppleResponseBodyTest.class
+com\automation\restapi\utils\BaseTest.class
+com\automation\restapi\tests\json\VerifyHttpStatusCode.class
+com\automation\restapi\tests\json\VerifyResponseBodyTest.class
+com\automation\restapi\tests\json\VerifyResponseHeaderTest.class
+com\automation\restapi\utils\FileNameConstants.class

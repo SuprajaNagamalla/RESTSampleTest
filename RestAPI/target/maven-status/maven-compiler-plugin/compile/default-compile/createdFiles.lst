@@ -1,0 +1,6 @@
+com\automation\restapi\model\User.class
+com\automation\restapi\model\UserList.class
+com\automation\restapi\model\Company.class
+com\automation\restapi\listener\RestAssuredListener.class
+com\automation\restapi\model\Address.class
+com\automation\restapi\model\Geo.class
