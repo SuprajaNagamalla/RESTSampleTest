@@ -1,7 +1,6 @@
 Download JDK 7 version on Mac 64 bit
 jdk-7u80-macosx-x64.dmg - check this on below page
 https://www.oracle.com/in/java/technologies/javase/javase7-archive-downloads.html
-
 =================================
 Download JDK 7 version on Windows 64 bit using below path
 jdk-7u80-windows-x64.exe - check this on below page
