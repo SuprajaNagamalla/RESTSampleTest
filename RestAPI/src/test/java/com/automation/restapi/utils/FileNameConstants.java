@@ -11,5 +11,6 @@ public class FileNameConstants {
 	public static final String GET_API_REQUEST_BODY = BASE_PATH+"htmlResponse.txt";
 	public static final String BASE_URL = "https://developer.apple.com";
 	public static final String AUDIOVIDEOiTUNESEARCHENDPOINT = "/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI";
+	public static final String testEndpoint = BASE_PATH+"/test";
 
 }
